@@ -6,7 +6,7 @@ authors = ["Andreas Copan <avcopan@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 icrawler = "^0.6.7"
 six = "^1.16.0"
 requests = "^2.31.0"
@@ -14,7 +14,6 @@ bs4 = "^0.0.1"
 lxml = "^4.9.3"
 labelme = "^5.3.1"
 pyqt5 = "^5.15.9"
-pillow = "^9.5"
 labelme2yolo = "^0.1.2"
 ultralytics = "^8.0.180"
 torch = {version = "^2.0.1+cpu", source = "pytorch-cpu-src"}

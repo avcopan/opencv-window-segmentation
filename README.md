@@ -38,21 +38,21 @@ Now, create the following directories in the project root:
 mkdir train
 mkdir val
 ```
-And move the results into them:
+And move the results into it:
 ```
 mv images/YOLODataset/images/train/ train/images/
 mv images/YOLODataset/labels/train/ train/labels/
-mv images/YOLODataset/images/val/ val/images/
-mv images/YOLODataset/labels/val/ val/labels/
+mv images/YOLODataset/images/val/ train/images/
+mv images/YOLODataset/labels/val/ train/labels/
 ```
-Also, move the dataset YAML into the project root:
+Also, move the dataset YAML file into the project root:
 ```
-mv images/YOLODataset/dataset.yaml .
+mv images/YOLODataset/dataset.yaml training_config.yaml
 ```
-And update the paths inside of it, giving absolute paths to your `train/` and `val/` directories:
+Update the paths inside of this file, giving absolute paths to your `train/` and `val/` directories:
 ```
 train: /home/avcopan/Documents/Code/prime/opencv-window-segmentation/train
-val: /home/avcopan/Documents/Code/prime/opencv-window-segmentation/val
+train: /home/avcopan/Documents/Code/prime/opencv-window-segmentation/val
 nc: 2
 names: ['window-outside', 'window']
 ```

@@ -1,0 +1,5 @@
+train: /home/avcopan/Documents/Code/prime/opencv-window-segmentation/train
+val: /home/avcopan/Documents/Code/prime/opencv-window-segmentation/val
+nc: 2
+names: ['window-outside', 'window']
+

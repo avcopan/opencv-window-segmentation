@@ -38,4 +38,5 @@ google_crawler.crawl(keyword="bow window", max_num=50)
 google_crawler.crawl(keyword="double hung window", max_num=50)
 google_crawler.crawl(keyword="egress window", max_num=50)
 google_crawler.crawl(keyword="fixed window", max_num=50)
+# google_crawler.crawl(keyword="window picture", max_num=100)
 
