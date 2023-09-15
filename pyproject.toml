@@ -16,7 +16,16 @@ labelme = "^5.3.1"
 pyqt5 = "^5.15.9"
 pillow = "^9.5"
 labelme2yolo = "^0.1.2"
+ultralytics = "^8.0.180"
+torch = {version = "^2.0.1+cpu", source = "pytorch-cpu-src"}
+torchvision = {version = "^0.15.2+cpu", source = "pytorch-cpu-src"}
+torchaudio = {version = "^2.0.2+cpu", source = "pytorch-cpu-src"}
 
+
+[[tool.poetry.source]]
+name = "pytorch-cpu-src"
+url = "https://download.pytorch.org/whl/cpu"
+priority = "explicit"
 
 [build-system]
 requires = ["poetry-core"]

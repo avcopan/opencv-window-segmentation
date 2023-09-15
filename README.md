@@ -56,3 +56,19 @@ val: /home/avcopan/Documents/Code/prime/opencv-window-segmentation/val
 nc: 2
 names: ['window-outside', 'window']
 ```
+
+> ### Side note:
+> 
+> If you are starting with a fresh poetry environment, you can install the CPU version of torch as follows:
+> ```
+> poetry source add --priority=explicit pytorch-cpu-src https://download.pytorch.org/whl/cpu
+> poetry add --source pytorch-cpu-src torch torchvision torchaudio
+> ```
+
+#### 4. Train the YOLO model
+
+Run the model training script:
+```
+python 04_train_model.py
+```
+
